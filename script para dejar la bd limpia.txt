@@ -1,3 +1,0 @@
-update editoriales set edi_recuperado = 1 where edi_recuperado = 2;
-update usuarios set usu_permiso = 1 where usu_privilegio = 1 and usu_permiso = 0;
-update usuarios set usu_login = replace(usu_login,'matlec','bibesc') where usu_login like 'matlec%';  

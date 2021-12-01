@@ -1,0 +1,19 @@
+.g-noe {
+    color: azure;
+/* fallback for old browsers */
+background: #af4090;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to left, rgba(175, 64, 144, 1), rgba(97, 56, 142, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to left, rgba(175, 64, 144, 1), rgba(97, 56, 142, 1))
+}
+
+.fondo{
+    background-image: url('../../assets/img/fondo_ceguera.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
