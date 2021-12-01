@@ -22,6 +22,7 @@ import { ConvocatoriaunoComponent } from './convocatoriauno/convocatoriauno.comp
 import { AppRoutingModule } from './app-routing.module';
 import { ConvocatoridosComponent } from './convocatoridos/convocatoridos.component';
 import { BraileComponent } from './braile/braile.component';
+import { ScrollTopComponent } from './componentes/scroll-top/scroll-top.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { BraileComponent } from './braile/braile.component';
     FooterComponent,
     ConvocatoriaunoComponent,
     ConvocatoridosComponent,
-    BraileComponent
+    BraileComponent,
+    ScrollTopComponent
   ],
   imports: [
     BrowserModule,
